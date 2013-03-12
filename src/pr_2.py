@@ -13,4 +13,3 @@ while(x < 4000000):
         result +=x
 
 print(result)
-        
