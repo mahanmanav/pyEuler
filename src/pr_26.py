@@ -16,7 +16,7 @@ Find the value of d < 1000 for which 1/d contains the longest recurring cycle in
 '''
 
 # http://mathworld.wolfram.com/DecimalExpansion.html
-# Multiplicative Order: 10^t = 10^(s+t) (mod n) //congruence relationship
+# Multiplicative Order: 10^s = 10^(s+t) (mod n) //congruence relationship
 # When n != 0 (mod 2, 5), s = 0, and this becomes a purely periodic decimal
 
 mrCycle = result = 0
